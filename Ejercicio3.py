@@ -45,6 +45,6 @@ def main():
         print ("Obesidad: >=30\n IMC={}".format(imc))
 main()
 """Mediante la función principal llamo a las otras funciones pedir_peso y pedir_estatura, que me devuelven dos valores que guardo
-en dos variable peso y altura. Al llamar a la función IMC le paso esas dos variables que utiliza para el calculo. Después, devuelve
+en dos variable peso y altura. Al llamar a la función IMC le paso esas dos variables que utiliza para el cálculo. Después, devuelve
 el índice de masa corporal que guardo en la variable imc. Dependiendo de que valor sea se imprimirá por pantalla si tiene un peso
 por debajo de lo recomendable, por encima o si es normal"""

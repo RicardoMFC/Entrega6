@@ -23,7 +23,7 @@ def main():
     numero2=lee_numero()
     numero3=lee_numero()
     numero_mayor = mayor(numero1, numero2, numero3)
-    print(numero_mayor)
+    print("El numero mayor es el {}\n".format(numero_mayor))
 main()
 """Desde la función principal llamamos 3 veces a lle_numero y cada vez que llamamos a la función nos devolverá un valor que
 guardaremos en 3 variables distintas. Luego mandaremos estos valores a la función mayor como parámetros, esta nos devolverá cual

@@ -13,10 +13,10 @@ def introducir_radio():
 #Defino una función introducir_radio para leer por pantalla el radio de la circunferencia, lo pido hasta que sea mayor que 0.
 
 def area_circulo(radio):
-    pi=math.pi
-    area=pi*pow(radio,2)
+    area=math.pi*pow(radio,2)
     return area
-#La función area_circulo, calcula el area del círculo, el único parámetro de entrada es el radio.
+"""La función area_circulo, calcula el area del círculo, el único parámetro de entrada es el radio. La función pow permite elevar 
+un valor al número que se desee."""
 
 def main():
     radio=introducir_radio()
